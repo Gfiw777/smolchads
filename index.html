@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trenchland - Main Page</title>
+  <!-- Viewport per il responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Font: Alice (opzionale) -->
+  <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+  
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Alice', serif;
+      background: url('sito2.png') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;      
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      color: #fff;
+      text-shadow: 2px 2px 4px #000;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .cta {
+      background: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 600px;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .cta p {
+      color: #333;
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 10px 5px;
+      border-radius: 5px;
+      font-weight: bold;
+      background-color: #ff9900; /* colore di sfondo del pulsante */
+      color: #fff;               /* colore del testo */
+      text-shadow: 1px 1px 2px #000;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .btn:hover {
+      background-color: #e68a00;
+    }
+
+    /* Stile per il testo CA in fondo alla pagina */
+    .ca-info {
+      margin-top: 20px;
+      color: #fff;
+      text-shadow: 1px 1px 2px #000;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Messaggio di benvenuto -->
+  <h1>Welcome to the Kingdom of Trenchland</h1>
+  
+  <div class="cta">
+    <!-- Testo invito -->
+    <p>
+      Enlist and get your passport to join our Kingdom!
+    </p>
+    
+    <!-- Pulsante/link che porta alla pagina del passaporto -->
+    <a href="passport.html" class="btn">Get Your Passport</a>
+    
+    <!-- Pulsanti che portano ai vari link social/tools -->
+    <div>
+      <a href="https://t.me/trenchlandcto28" target="_blank" class="btn">Telegram</a>
+      <a href="https://twitter.com/newtrenchland" target="_blank" class="btn">X (Twitter)</a>
+      <a href="https://dexscreener.com/solana/CrWL4zsWLTwbFr2gdHuuRR57hezCwhFwMjSPLbu7pump" target="_blank" class="btn">Dexscreener</a>
+    </div>
+  </div>
+
+  <!-- Sezione finale con il CA -->
+  <div class="ca-info">
+    CA: CrWL4zsWLTwbFr2gdHuuRR57hezCwhFwMjSPLbu7pump
+  </div>
+
+</body>
+</html>
